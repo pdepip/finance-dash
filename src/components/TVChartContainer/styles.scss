@@ -1,0 +1,94 @@
+.chart-page {
+    background: none;
+    border-color: rgb(31, 32, 42);
+    background-color: rgb(18, 19, 32);
+}
+
+
+.chart-page .chart-container {
+    border-color: rgba(255, 255, 255, 0.2);
+    background: none;
+}
+
+.chart-controls-bar {
+    background-color: rgb(15, 15, 25);
+}
+
+.drawingToolbar-2CoOuCv8- {
+    background-color: rgb(18, 19, 32);
+}
+
+.header-chart-panel .button {
+    background-color: rgb(15, 15, 25);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.header-chart-panel .button.disabled {
+    background-color: rgb(22, 24, 38);
+}
+
+.favored-list-container span {
+    background-color: rgb(15, 15, 25);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: rgb(94, 115, 134);
+}
+
+.feature-no-touch .favored-list-container span:hover {
+    background: rgb(22, 24, 38);
+    color: rgb(148, 149, 158);
+}
+
+.favored-list-container.active span.submenu,
+.favored-list-container span.submenu.active {
+    color: white;
+    background: rgb(22, 24, 38);
+}
+
+.charts-popup-list {
+    background: rgb(22, 24, 38);
+    border-color: rgb(148, 149, 158);
+}
+
+.charts-popup-list .item.active ,
+.feature-no-touch .charts-popup-list .item:hover {
+    background: rgb(45, 44, 55);
+}
+
+.charts-popup-list.intervals-list .item {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.chart-style-popup .item {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.save-load-buttons .button.first {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.save-load-buttons .button.last {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pane-legend-line>span.pane-legend-line {
+    display: none;
+}
+
+.chart-style-widget svg {
+    fill: rgb(94, 115, 134);
+}
+
+.button.indicators svg {
+    fill: rgb(94, 115, 134);
+}
+
+.button.properties svg,
+.button.compare svg,
+.button.fullscreen svg,
+.save-load-buttons .button svg {
+    fill: rgb(94, 115, 134);
+}
+
+.group-wWM3zP_M- {
+    background-color: red !important;
+}

@@ -1,0 +1,35 @@
+#portfolio-overview {
+  position: relative; }
+  #portfolio-overview #portfolio-container {
+    opacity: 0.45;
+    flex-direction: column;
+    height: 100%; }
+    #portfolio-overview #portfolio-container #portfolio-total {
+      font-size: 36px;
+      font-weight: 500;
+      letter-spacing: -0.29px;
+      line-height: 42px;
+      margin: 0;
+      margin-bottom: 4px; }
+    #portfolio-overview #portfolio-container #portfolio-change {
+      display: flex; }
+      #portfolio-overview #portfolio-container #portfolio-change #portfolio-time {
+        padding-left: 6px;
+        color: #cbcbcd; }
+    #portfolio-overview #portfolio-container .portfolio-bottom {
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+    #portfolio-overview #portfolio-container .movers-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      padding-top: 1rem; }
+    #portfolio-overview #portfolio-container #portfolio-value {
+      border-bottom: 1px solid #cdcdcd;
+      height: auto; }
+    #portfolio-overview #portfolio-container #portfolio-movers {
+      display: flex;
+      flex-direction: column; }
+      #portfolio-overview #portfolio-container #portfolio-movers .mover-cards {
+        display: flex; }

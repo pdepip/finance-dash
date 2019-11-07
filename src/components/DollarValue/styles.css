@@ -1,0 +1,31 @@
+.dollar-value {
+  display: flex;
+  align-items: center; }
+  .dollar-value .arrow {
+    display: none; }
+  .dollar-value .first-char {
+    position: relative;
+    top: -0.1rem;
+    right: 1px;
+    font-size: 0.6em; }
+  .dollar-value .value {
+    display: flex;
+    align-items: center; }
+  .dollar-value .last-char {
+    position: relative;
+    bottom: -0.2em;
+    left: 1px;
+    font-size: 0.65em; }
+  .dollar-value.show-arrow .arrow {
+    display: flex;
+    margin-right: 0.35rem;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    font-size: 0;
+    line-height: 0; }
+  .dollar-value.negative .arrow {
+    border-top: 6px solid #f45531; }
+  .dollar-value.positive .arrow {
+    border-bottom: 6px solid #21ce99; }
+  .dollar-value.negative .first-char, .dollar-value.negative .last-char, .dollar-value.positive .first-char, .dollar-value.positive .last-char {
+    color: inherit; }

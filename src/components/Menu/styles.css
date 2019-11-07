@@ -1,0 +1,81 @@
+.Menu {
+  width: 200px;
+  height: 100vh;
+  color: #ffffff;
+  background-color: #2C3334;
+  user-select: none;
+  cursor: default;
+  transition: .3s;
+  z-index: 1001;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400; }
+  .Menu .Menu-Container {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; }
+    .Menu .Menu-Container .Menu-Header {
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+      background-color: #2C3334;
+      transition: padding .3s;
+      padding: 8px 12px 0 6px; }
+    .Menu .Menu-Container .Menu-Logo {
+      height: 35px;
+      flex: 0 0 140px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("../../assets/brand/wordmark-white.svg");
+      text-decoration: none;
+      cursor: pointer;
+      display: block; }
+    .Menu .Menu-Container .Menu-Content {
+      height: 100%;
+      position: relative;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-start; }
+      .Menu .Menu-Container .Menu-Content .Menu-Section {
+        padding: 30px 0 0 0; }
+        .Menu .Menu-Container .Menu-Content .Menu-Section:first-child {
+          padding: 20px 0 0 0; }
+        .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Title {
+          padding: 0 2px 4px 12px;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 900;
+          letter-spacing: 2.5px;
+          color: #BDBDBD;
+          background-color: #2C3334;
+          overflow: hidden;
+          white-space: nowrap; }
+        .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Body .Menu-Section-Item {
+          width: 200px;
+          color: #ffffff;
+          font-size: 15px;
+          user-select: none;
+          cursor: default; }
+          .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Body .Menu-Section-Item .Menu-Item-Title {
+            height: 40px;
+            padding: 0 8px;
+            background-color: #2C3334;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding-left: 20px; }
+            .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Body .Menu-Section-Item .Menu-Item-Title .Menu-Item-Title-Text {
+              display: inline-block;
+              vertical-align: middle;
+              letter-spacing: 1px; }
+          .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Body .Menu-Section-Item.active .Menu-Item-Title, .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Body .Menu-Section-Item:hover .Menu-Item-Title {
+            background-color: #32393B;
+            border-left: 3px solid #31B7D8;
+            padding-left: 17px; }
+            .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Body .Menu-Section-Item.active .Menu-Item-Title .Menu-Item-Title-Text, .Menu .Menu-Container .Menu-Content .Menu-Section .Menu-Section-Body .Menu-Section-Item:hover .Menu-Item-Title .Menu-Item-Title-Text {
+              color: #31B7D8; }

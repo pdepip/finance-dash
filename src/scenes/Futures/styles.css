@@ -1,0 +1,61 @@
+#futures-scene {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  #futures-scene .chart-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: calc(100% - 60px);
+    width: 100%;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    margin: 0 auto; }
+    #futures-scene .chart-section .section-left {
+      width: 50%;
+      height: calc(100vh - 68px);
+      padding: 0 8px 0 0; }
+    #futures-scene .chart-section .section-right {
+      width: calc(50% - 16px); }
+  #futures-scene .chart-box {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 8px);
+    height: calc(50% - 4px);
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    transition: all 240ms ease;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25), -1px 0px 1px rgba(0, 0, 0, 0.25); }
+  #futures-scene .box-header {
+    display: flex;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    min-height: 28px;
+    max-height: 28px;
+    background: #4B5354;
+    color: #F2F2F2;
+    padding: 0 0 0 8px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 26px;
+    max-height: 26px;
+    line-height: 26px;
+    font-size: 16px; }
+  #futures-scene .chart {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: none; }
+    #futures-scene .chart .chart-header {
+      padding: 1rem;
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, 0.8); }
+    #futures-scene .chart .chart-container {
+      height: 100%; }

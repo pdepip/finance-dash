@@ -1,0 +1,25 @@
+.chart-menu-container {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: "Lato", Arial, sans-serif;
+  height: 60px;
+  padding: 15px 10px 5px 10px;
+  align-items: center;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  width: 100%;
+  height: 100%; }
+  .chart-menu-container .menu-section {
+    display: flex;
+    width: 100%; }
+  .chart-menu-container #dropdown-container {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    height: 40px;
+    margin-right: 24px; }
+  .chart-menu-container .css-10nd86i {
+    width: 100%; }
+  .chart-menu-container .css-15k3avv {
+    z-index: 9999999999999; }

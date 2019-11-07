@@ -1,0 +1,15 @@
+.dcrypt-table {
+    width: 100%;
+}
+
+.ReactTable .rt-tbody .rt-tr-group {
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+
+    &:hover {
+        background-color: #f8f8f8;
+        cursor: pointer;
+    }
+}
+

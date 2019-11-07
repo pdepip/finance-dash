@@ -1,0 +1,20 @@
+.dcrypt-table {
+  width: 100%; }
+
+.ReactTable .rt-tbody .rt-tr-group {
+  background-color: white;
+  font-size: 13px;
+  font-weight: 400; }
+  .ReactTable .rt-tbody .rt-tr-group:hover {
+    background-color: #f8f8f8;
+    cursor: pointer; }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  line-height: 1;
+  font-size: 16px; }

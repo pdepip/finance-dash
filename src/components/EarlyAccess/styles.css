@@ -1,0 +1,8 @@
+.EarlyAccess {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 999999999; }

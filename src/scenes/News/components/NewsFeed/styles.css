@@ -1,0 +1,28 @@
+#news-feed .ReactTable {
+  border: none; }
+  #news-feed .ReactTable .rt-thead.-header {
+    display: none; }
+  #news-feed .ReactTable .rt-tbody .rt-tr-group {
+    border: 3px solid #f7f7f7; }
+
+#news-feed .news-title .title-text {
+  color: #288acb;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 12px; }
+  #news-feed .news-title .title-text:hover {
+    text-decoration: underline; }
+
+#news-feed .news-title .disabled {
+  text-decoration: none; }
+  #news-feed .news-title .disabled:hover {
+    text-decoration: none; }
+
+#news-feed .news-title .title-author {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: capitalize;
+  margin-left: 12px; }
+
+#news-feed .news-time {
+  text-align: center; }

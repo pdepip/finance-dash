@@ -1,0 +1,61 @@
+$triangle-width: 4px;
+$triangle-height: 6px;
+
+$green: #21ce99;
+$red: #f45531;
+
+.dollar-value {
+    display: flex;
+    align-items: center;
+
+    .arrow {
+        display: none;
+    }
+
+    .first-char {
+        position: relative;
+        top: -0.1rem;
+        right: 1px;
+        font-size: 0.6em;
+    }
+
+    .value {
+        display: flex;
+        align-items: center;
+    }
+    .last-char {
+        position: relative;
+        bottom: -0.2em;
+        left: 1px;
+        font-size: 0.65em;
+    }
+
+    &.show-arrow {
+        .arrow {
+            display: flex;
+            margin-right: 0.35rem;
+            border-left: $triangle-width solid transparent;
+            border-right: $triangle-width solid transparent;
+            font-size: 0;
+            line-height: 0;
+        }
+    }
+
+    &.negative {
+        .arrow {
+            border-top: $triangle-height solid $red;
+        }
+    }
+
+    &.positive {
+        .arrow {
+            border-bottom: $triangle-height solid $green;
+        }
+    }
+
+    &.negative, &.positive {
+        .first-char, .last-char {
+            color: inherit;
+        }
+    }
+}

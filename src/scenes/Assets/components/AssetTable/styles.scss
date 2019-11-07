@@ -1,0 +1,30 @@
+#asset-table {
+    .ReactTable .rt-tbody .rt-tr-group {
+        font-size: 14px;
+    }
+
+    .dollar-value {
+        justify-content: flex-end;
+    }
+
+    .ReactTable .rt-tbody .rt-td {
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+    }
+
+    .asset-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+
+        .asset-icon {
+            padding-right: 12px;
+            height: 20px;
+        }
+
+        .asset-name {
+            font-weight: 700;
+        }
+    }
+}

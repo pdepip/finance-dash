@@ -1,0 +1,86 @@
+.dcrypt-table {
+  width: 100%; }
+
+.ReactTable .rt-tbody .rt-tr-group {
+  background-color: white;
+  font-size: 13px;
+  font-weight: 400; }
+  .ReactTable .rt-tbody .rt-tr-group:hover {
+    background-color: #f8f8f8;
+    cursor: pointer; }
+
+.App {
+  height: 100%;
+  display: flex; }
+  .App .Base_Container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 0; }
+  .App .Content {
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    width: calc(100% - 200px);
+    position: absolute;
+    left: calc(200px);
+    background-color: #f7f7f7; }
+  .App .Scene-Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px; }
+  .App .Component {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 100%; }
+    .App .Component .Component-Title {
+      display: flex;
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -0.14px;
+      line-height: 30px;
+      margin-bottom: 24px;
+      width: 100%; }
+    .App .Component .Component-Body {
+      display: flex;
+      width: 100%;
+      height: 100%; }
+  .App .positive {
+    color: #21ce99; }
+  .App .negative {
+    color: #f45531; }
+  .App .button {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 48px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 120px;
+    padding: 0 48px;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 19px;
+    margin: 0;
+    background: #288acb;
+    border: #288acb; }
+    .App .button:hover {
+      background: #67a0d7;
+      border: #67a0d7; }
